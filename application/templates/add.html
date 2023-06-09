@@ -1,0 +1,34 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="col-xs-10 col-sm-6 col-md-6">
+  <h2>add menu Page</h2>
+  <div class="card card-style mb-2">
+    <div class="card-body">
+      <form action="" method="POST">
+        {{ form.csrf_token() }}
+        <fieldset class="form-group">
+          <div class="form-group">
+            {{ form.item.label(class="form-control-label") }} {% if
+            form.item.errors %} {{ form.item(class="form-control form-control-sm
+            is-invalid") }} {% for error in form.item.errors %}
+            <div class="invalid-feedback">
+              <span>{{error}}</span>
+            </div>
+            {% endfor %} {% else %} {{ form.item(class="form-control
+            form-control-sm") }} {% endif %}
+          </div>
+
+          <div class="form-group">
+            {{ form.votes.label(class = "form-control-label") }} {{
+            form.votes(class = "form-control form-control-sm") }}
+          </div>
+
+          <div class="form-group border-bottom pb-3">
+            {{ form.submit(class="btn btn-outline-info")}}
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

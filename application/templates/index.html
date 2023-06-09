@@ -1,0 +1,37 @@
+{% extends 'layout.html' %} {% block content %}
+
+<div class="col-sm-10 ml-auto mr-auto">
+  <h2>List your menus</h2>
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Menu</th>
+        <th scope="col">Votes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for menu in entries %}
+      <tr>
+        <td>{{ menu.item }}</td>
+        <td>{{ menu.votes }}</td>
+        <td>
+          <a
+            href="{{ url_for('delete_menu', id=menu.id) }}"
+            class="btn btn-outline-danger btn-sm"
+            >Delete</a
+          >
+        </td>
+        <td>
+          <a
+            href="{{ url_for('update_menu', id=menu.id) }}"
+            class="btn btn-outline-danger btn-sm"
+            >Update</a
+          >
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}
