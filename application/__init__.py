@@ -1,7 +1,7 @@
 import os
 import secrets
 from flask import Flask
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 from dotenv import load_dotenv
 
@@ -9,9 +9,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-
-cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
+CORS(app)
 
 app.config["SECRET_KEY"] = secrets.token_hex(16)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL')

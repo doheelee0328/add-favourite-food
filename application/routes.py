@@ -1,6 +1,5 @@
 from application import app,db
 from application import routes
-from flask_cors import CORS, cross_origin
 from flask import jsonify,request
 from flask import render_template, redirect, url_for,flash, get_flashed_messages
 from application.models import Menu
@@ -12,7 +11,7 @@ import json
 
 
 @app.route("/")
-@cross_origin()
+
 def index():
     entries = Menu.query.order_by(Menu.votes.asc()).all()
     entry_list = []
@@ -30,7 +29,7 @@ def format_menu(entry):
 
 
 @app.route("/add_menu", methods=["POST", "GET"])
-@cross_origin()
+
 def add_menu():
     form = UserDataForm()
     if form.validate_on_submit():
@@ -51,7 +50,7 @@ def delete_menu(id):
     return redirect(url_for("index"))
 
 @app.route("/update_menu/<int:id>", methods=["POST", "GET"])
-@cross_origin()
+
 def update_menu(id):
     form =  UpdateUserDataForm()
     if form.validate_on_submit():
