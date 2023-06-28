@@ -1,8 +1,28 @@
 {% extends 'layout.html' %} {% block content %}
-<div class="col-xs-10 col-sm-6 col-md-6">
-  <h2>Add your favourite food and rate for it from 1 to 10!</h2>
+<div
+  class="col-xs-10 col-sm-6 col-md-6"
+  style="
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  "
+>
+  <h2
+    style="
+      color: black;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 900;
+      margin-bottom: 30px;
+    "
+  >
+    Add your favourite food and rate for it from 1 to 10!
+  </h2>
   <div class="card card-style mb-2">
-    <div class="card-body">
+    <div class="card-body" style="width: 700px">
       <form action="" method="POST">
         {{ form.csrf_token() }}
         <fieldset class="form-group">
@@ -21,9 +41,10 @@
             {{ form.votes.label(class = "form-control-label") }} {{
             form.votes(class = "form-control form-control-sm") }}
           </div>
-
-          <div class="form-group border-bottom pb-3">
-            {{ form.submit(class="btn btn-outline-info")}}
+          <div class="text-center">
+            <div class="form-group border-bottom pb-3">
+              {{ form.submit(class="btn btn-outline-secondary btn-sm")}}
+            </div>
           </div>
         </fieldset>
       </form>

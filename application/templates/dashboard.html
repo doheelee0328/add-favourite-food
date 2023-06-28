@@ -1,7 +1,17 @@
 {% extends 'layout.html' %} {% block content %}
 
-<div class="col-xs-10 col-sm-6 col-md-6">
-  <div class="card card-style mb-2">
+<div
+  class="col-xs-10 col-sm-6 col-md-6"
+  style="
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  "
+>
+  <div class="card card-style mb-2" style="width: 700px">
     <div class="card-body">
       <div class="chart-container" style="position: relative">
         <canvas id="menu_by_votes"></canvas>
@@ -29,18 +39,14 @@
           label: 'Menu by votes',
           data: data,
           backgroundColor: [
-            '#5DA5DA',
-            '#FAA43A',
-            '#60BD68',
-            '#B276B2',
-            '#E16851',
-            '#FB8267',
+            '#eeee',
+            '#eeee',
+            '#eeee',
+            '#eeee',
+            '#eeee',
+            '#eeee',
           ],
           borderWidth: 1,
-          hoverBorderColor: 'black',
-          hoverBorderWidth: 2,
-          hoverBackgroundColor: 'rgba(154, 245, 140)',
-          pointHoverRadius: 5,
         },
       ],
     },
