@@ -8,9 +8,9 @@
 ## Configuration
 - Create a file named .flaskenv in the project directory.
 - Open the .flaskenv file and add the following configuration:
-FLASK_APP=app
-FLASK_DEBUG=1
-DATABASE_URL= (Make sure to replace the DATABASE_URL value with your actual PostgreSQL database URL)
+- FLASK_APP=app
+- FLASK_DEBUG=1
+- DATABASE_URL= (Make sure to replace the DATABASE_URL value with your actual PostgreSQL database URL)
 
 ## Database Setup
 - Activate the virtual environment by running the following command: pipenv shell
