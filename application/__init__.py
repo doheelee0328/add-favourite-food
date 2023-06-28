@@ -13,7 +13,7 @@ CORS(app)
 
 app.config["SECRET_KEY"] = secrets.token_hex(16)
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://bdzmzmsh:4uTi9Dh-sMky0_ROhYjzsgWWJMJE-JVT@lucky.db.elephantsql.com/bdzmzmsh"
-
+app.config['CORS_HEADERS'] = 'Content-Type'
 os.getenv('DATABASE_URL')
 
 db = SQLAlchemy(app)
