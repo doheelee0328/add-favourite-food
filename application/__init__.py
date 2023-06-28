@@ -9,7 +9,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-CORS(app, origins=["https://favourite-food-work.onrender.com"])
+CORS(app)
 
 app.config["SECRET_KEY"] = secrets.token_hex(16)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL')
