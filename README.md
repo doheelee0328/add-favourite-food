@@ -36,10 +36,9 @@ Make sure to keep the terminal running while you test or use the server. If you 
 - Display in Bar Chart: The system provides a visually appealing representation of the favorite food items in a bar chart. The bar chart displays the popularity of each food item based on the votes it has received. This allows users to quickly identify the most popular food choices.
 
 ## Final Looks 
-<img width="1169" alt="Screenshot 2023-06-28 at 19 51 07" src="https://github.com/doheelee0328/add-favourite-food/assets/112406576/1d0d096a-862c-43fa-88ca-3eebb3449616"><img width="1440" alt="Screenshot 2023-06-28 at 21 26 31" <img <img width="1440" alt="Screenshot 2023-06-28 at 21 26 52" src="https://github.com/doheelee0328/add-favourite-food/assets/112406576/ad42d124-8415-487e-a267-9ad50d791b64">
-width="1410" alt="Screenshot 2023-06-28 at 21 26 41" src="https://github.com/doheelee0328/add-favourite-<img width="1440" alt="Screenshot 2023-06-28 at 21 26 47" src="https://github.com/doheelee0328/add-favourite-food/assets/112406576/01885774-eb12-4a99-bc16-eb32293d193f">
-food/assets/112406576/a8a65953-3e66-43f5-a0ee-2a856d76d230">
-src="https://github.com/doheelee0328/add-favourite-food/assets/112406576/d084ef9a-f8d1-443f-a87a-72b10e90679b">
-
-
+<img width="1169" alt="Screenshot 2023-06-28 at 19 51 07" src="https://github.com/doheelee0328/add-favourite-food/assets/112406576/58f3ecfe-ef22-4dde-9548-ddcf7f242514">
+<img width="1440" alt="Screenshot 2023-06-28 at 21 26 31" src="https://github.com/doheelee0328/add-favourite-food/assets/112406576/5500c584-e21b-4689-b2e2-58761d5e8263">
+<img width="1410" alt="Screenshot 2023-06-28 at 21 26 41" src="https://github.com/doheelee0328/add-favourite-food/assets/112406576/6e4fff48-3976-43bb-9b43-b3d1536f2096">
+<img width="1440" alt="Screenshot 2023-06-28 at 21 26 47" src="https://github.com/doheelee0328/add-favourite-food/assets/112406576/7d35f285-1266-458f-9561-588a570aaa8f">
+<img width="1440" alt="Screenshot 2023-06-28 at 21 26 52" src="https://github.com/doheelee0328/add-favourite-food/assets/112406576/8c708570-2c7a-4878-84ad-5a8a7f9e21a7">
 
