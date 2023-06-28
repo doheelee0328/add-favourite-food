@@ -12,6 +12,7 @@ app.config["SECRET_KEY"] = secrets.token_hex(16)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL')
 
 
+
 db = SQLAlchemy(app)
 
 
