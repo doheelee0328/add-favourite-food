@@ -5,7 +5,9 @@ Description: This project is part of the La Fosse Challenge and showcases a webs
 To Access the Website:
 
 - Open Safari browser on your device.
-- Visit https://favourite-food.onrender.com/ 
+- Visit https://favourite-food.onrender.com/
+
+
 Note: For the best user experience, we recommend accessing the website using Safari. 
 
 ## Installation
