@@ -1,5 +1,12 @@
 # add-favourite-food
-This was part of the La fosse Challenge 
+
+Description: This project is part of the La Fosse Challenge and showcases a website where users can add and view their favorite food items. Please note that the current version of the website is optimized for Safari browser.
+
+To Access the Website:
+
+- Open Safari browser on your device.
+- Visit https://favourite-food.onrender.com/ 
+Note: For the best user experience, we recommend accessing the website using Safari. 
 
 ## Installation
 - Open your terminal.
